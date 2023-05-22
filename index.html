@@ -8,25 +8,31 @@
     <title>LOGIN</title>
 </head>
 <body>
-   <div class="mainlogin">
-        <div class="leftlogin">
-            <h1>Faça login<br>e participe da nossa comunidade!</h1>
-            <img src="robot.svg" class="leftloginimg" alt="anim">
-        </div>
-        <div class="rightlogin">
-            <div class="cardlogin">
-                <h1>LOGIN</h1>
-                <div class="textfield">
-                    <label for="usuario">Usuário</label>
-                    <input type="text" name="usuario" placeholder="Usuário">
-                </div>
-                <div class="textfield">
-                    <label for="senha">Senha</label>
-                    <input type="password" name="senha" placeholder="senha">                
-                </div>
-                <button class="btnlogin">login</button>
+    <form action="">
+      <div class="mainlogin">
+            <div class="leftlogin">
+                <h1>Faça login<br>e participe da nossa comunidade!</h1>
+                <img src="robot.svg" class="leftloginimg" alt="anim">
             </div>
-        </div>
-   </div>
+
+            <div class="rightlogin">
+              <div class="cardlogin login">
+                    <h1>LOGIN</h1>
+                    <div class="textfield box-user">
+											<input type="text" name="usuario" placeholder="">
+											<label for="usuario">Usuário</label>
+                    </div>
+                    <div class="textfield box-user">
+											<input type="password" name="senha" placeholder="">                
+											<label for="senha">Senha</label>
+                		</div>
+										<div class="forget">
+											<a href="#">Esqueceu sua senha? </a>
+										</div>
+                <button class="btnlogin">login</button>
+            	</div>
+        		</div>
+			</div>
+    </form>
 </body>
 </html>
